@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: linen;
+    color: blue;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;    
+}
+
+.navlist{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navlist a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    gap: 50px;
+
+}
+
+.pic{
+    width: 500px;
+
+}
+
+.about{
+    padding: 10px 10px;
+    border:  2px solid blue;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.about p{
+    text-align: justify;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.skills_head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bottom{
+    text-align: center;
+}
+.skills_container img{
+    width: 200px;
+    border:  2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project_head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.firstPro img, .secondPro img, .thirdPro img{
+    height: 55%;
+}
+
+
+.pro_link{
+    text-decoration: none;
+}
+
+.firstPro, .secondPro, .thirdPro{
+    height: 300px;
+    width: 350px;
+    border:  2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+}
+
+.contact_head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form{
+    height: 450px;
+    width: 620px;
+    border:  2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: blue;
+}
+
+
+#name{
+    height: 30px;
+    width: 90%;
+    border:  2px solid blue;
+    border-radius: 4px;
+    color: blue;
+}
+
+#email{
+    height: 30px;
+    width: 90%;
+    border:  2px solid blue;
+    border-radius: 4px;
+    color: blue;
+}
+
+#message{
+    height: 200px;
+    width: 90%;
+    border:  2px solid blue;
+    border-radius: 4px;
+    color: blue;
+}
+
+::placeholder{
+    color: blue;
+    padding: 10px;
+}
+.form label, .form input, .form textarea, .form button{
+    margin: 10px 30px;
+}
+
+.form button{
+    height: 40px;
+    width: 90%;
+    border:  2px solid blue;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size:medium;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    width: 50px;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+}
+
+.social a img{
+    width: 50px;
+}
+
+.social{
+    position: fixed;
+    right: 10px;
+    bottom: 300px;
+    display: flex;
+    flex-direction: column;
+}
